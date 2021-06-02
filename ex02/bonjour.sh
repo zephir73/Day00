@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo -n "Bonjour, quel est votre prénom ?\n"
+echo "Bonjour, quel est votre prénom ?"
 
 read prenom
 

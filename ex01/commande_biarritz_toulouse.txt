@@ -1,0 +1,8 @@
+grep "JavaScript" alumni.csv >> javascript_brut.csv 
+
+grep "Toulouse" javascript_brut.csv >> toulouse_java.csv
+
+grep "Biarritz" javascript_brut.csv >> Biarritz_java.csv
+
+cat toulouse_java.csv >> cat Biarritz_java.csv >> javascript_biarritz_toulouse.csv
+

@@ -1,0 +1,29 @@
+commande utilisé
+
+
+mkdir Real
+
+mkdir Star_Wars
+
+mkdir Star_Trek
+
+cd Real
+
+mkdir Telluriques
+
+mkdir Gazeuses
+
+cd..
+
+mv -t Real Jupiter.jpg Lune.jpg mars.jpeg Mercure.jpg Neptune.jpg Pluton.jpg saturn.png Terre.jpg Uranus.jpg Venus.jpg 
+
+mv -t Star_Trek Andoria.jpg Coruscant.jpg JanusVI.jpg Mustafar.png 
+
+mv -t Star_Wars *.jpg *.png
+
+cd Real
+
+mv -t Gazeuses Jupiter.jpg saturn.png Neptune.jpg Uranus.jpg 
+
+mv -t Telluriques *.jpg *.jpeg
+

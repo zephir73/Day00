@@ -1,5 +1,7 @@
 grep "PHP" alumni.csv | grep "France" >> sortie.csv
 
-grep "PHP" sortie.csv | wc -l >> php_france_2019.csv 
+grep "2019" sortie.csv >> sortie2.csv
+
+grep "PHP" sortie2.csv | wc -l >> php_france_2019.csv 
 
 

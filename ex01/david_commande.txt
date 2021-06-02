@@ -1,2 +1,1 @@
-grep "David" alumni.csv >> david.csv
-
+grep "David" alumni.csv | wc -l >> david.csv
